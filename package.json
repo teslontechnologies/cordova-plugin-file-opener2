@@ -1,5 +1,5 @@
 {
-  "name": "cordova-plugin-file-opener2",
+  "name": "@teslontechnologies/cordova-plugin-file-opener2",
   "version": "3.0.5",
   "description": "A File Opener Plugin for Cordova. (The Original Version)",
   "cordova": {
@@ -11,10 +11,6 @@
       "electron"
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/pwlin/cordova-plugin-file-opener2.git"
-  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -25,12 +21,9 @@
   "engines": {
     "cordova": ">=6.0.0"
   },
-  "author": {
-    "name": "pwlin05@gmail.com"
+  "repository": "https://github.com/teslontechnologies/cordova-plugin-file-opener2",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/pwlin/cordova-plugin-file-opener2/issues"
-  },
-  "homepage": "https://github.com/pwlin/cordova-plugin-file-opener2#readme"
+  "author": "Dileep R"
 }
